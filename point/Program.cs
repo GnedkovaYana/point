@@ -24,6 +24,7 @@ namespace Ex
         {
             return Math.Sqrt(Math.Pow(X - point.X, 2) + Math.Pow(Y - point.Y, 2));
         }
+
          public string ToString()
         {
             return $"({X}, {Y})";
